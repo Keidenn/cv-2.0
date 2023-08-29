@@ -459,6 +459,10 @@ figcaption {
 	text-transform: uppercase;
 }
 
+figcaption.white-legend {
+	color: white;
+}
+
 article h2 {
 	margin: 0 0 18px 0;
 	font-size: 1.9rem;
