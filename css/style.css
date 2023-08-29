@@ -132,8 +132,8 @@ nav.stroke a:hover:after {
 	width: 2%;
 }
 
-.social-links a,
-.about-social-links a,
+.social-links a:link,
+.about-social-links a:link,
 .social-links a:active,
 .about-social-links a:active,
 .social-links a:hover,
