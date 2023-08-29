@@ -111,7 +111,7 @@ nav.stroke a:hover:after {
 
 .caption span.titre:hover,
 .caption span.sous_titre:hover {
-	color: rgba(127, 193, 231, 0.486);
+	color: #619090;
 	cursor: default;
 }
 
@@ -134,12 +134,16 @@ nav.stroke a:hover:after {
 
 .social-links a:link,
 .about-social-links a:link,
+.contact-icon a:link,
 .social-links a:active,
 .about-social-links a:active,
+.contact-icon a:active,
 .social-links a:hover,
 .about-social-links a:hover,
+.contact-icon a:hover,
 .social-links a:visited,
-.about-social-links a:visited {
+.about-social-links a:visited,
+.contact-icon a:visited {
 	color: white;
 }
 
@@ -641,6 +645,84 @@ button:hover .button-text {
 	color: #fff;
 }
 
+.cta-portfolio {
+	background-color: #3e3e3e;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0 0;
+}
+
+.call-to-action.portfolio-section {
+	justify-content: center;
+}
+
+#contact {
+	width: 100%;
+}
+
+.contact {
+	margin: 32px auto 128px auto;
+	width: 80%;
+	max-width: 370px;
+	background-color: #3e3e3e;
+	border-radius: 15px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact:hover {
+	background-color: #2e2e2e;
+	transition: all .5s;
+}
+
+.contact h3 {
+	text-transform: uppercase;
+	font-size: 1.8em;
+	margin: 0;
+	line-height: normal;
+}
+
+.contact h3.title {
+	color: white;
+	font-size: 2em;
+}
+
+.contact h3:hover {
+	color: #619090;
+	transition: ease-in-out 0.3s;
+}
+
+.contact h3.title:hover {
+	color: white;
+	font-size: 2em;
+}
+
+.right-icon-img.contact-section {
+	width: 150px;
+	margin: 5%;
+	border-radius: 50%;
+}
+
+.contact-icon {
+	display: flex;
+	font-size: 2em;
+	margin: 32px 0 0;
+	gap: 48px;
+}
+
+.contact-icon a:hover {
+	color: #cecece;
+	transform: scale(1.5);
+	transition: ease-in-out 0.3s;
+}
+
+footer {
+	text-align: center;
+}
+
 /* ?définition des animations */
 .animate-right,
 .animate-left {
@@ -657,9 +739,6 @@ button:hover .button-text {
 	animation: slide-in-right 1s ease-out forwards;
 }
 
-footer {
-	text-align: center;
-}
 /* ?paramètrages des animations */
 @keyframes zoom {
 	0% {
