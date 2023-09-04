@@ -5,7 +5,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* modifications de base de la scrollbar  voir plus : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar */
 ::-webkit-scrollbar {
 	display: none;
 }
@@ -27,7 +26,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: linear-gradient(180deg, rgba(241, 241, 241, 0) 67%, rgba(28, 28, 28, 1) 95%), url('https://wallpapercrafter.com/sizes/2560x1440/73839-moon-night-desert-artist-artwork-digital-art-hd-4k.jpg') center/cover no-repeat;
+	background: linear-gradient(180deg, rgba(241, 241, 241, 0) 67%, rgba(28, 28, 28, 1) 95%), url('/assets/desert-bg.webp') center/cover no-repeat;
 	height: 1000px;
 	max-height: 100%;
 	position: relative;
@@ -46,7 +45,7 @@ body {
 .navigation-link {
 	font-family: 'Inria Serif', serif;
 	text-decoration: none;
-	font-size: 0.6em;
+	font-size: 0.65em;
 	color: white;
 	text-shadow: 0px 0px 8px #000;
 }
@@ -297,7 +296,7 @@ section h1 {
 	line-height: normal;
 }
 
-.about-card h3 {
+.about-card h2 {
 	color: #FFF;
 	text-align: center;
 	font-family: Inria Serif;
@@ -961,4 +960,32 @@ footer {
 	.nav-links {
 		font-size: 2em;
 	}
+}
+
+/* ? ajustements */
+@media (min-width: 375px) {
+	.navigation-link {
+		font-size: 0.75em;
+		text-align: center;
+	}
+}
+
+@media (min-width: 2000px) {
+.about-card-text {
+	font-size: 1.2em;
+}
+
+.about-card h2 {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.experiences-legend {
+	font-size: 1.4em;
+}
+
+#portfolio p {
+	font-size: 1.2em;
+}
+
 }
