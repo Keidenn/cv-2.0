@@ -516,6 +516,8 @@ article:has(:hover, :focus) {
 	gap: 24px;
 }
 
+
+
 @media screen and (max-width: 960px) {
 	article {
 		container: card/inline-size;
@@ -753,7 +755,7 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
+    transition: background-color .3s,
       opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
@@ -779,7 +781,7 @@ footer {
     opacity: 1;
     visibility: visible;
   }
-  
+
 
 /* ?paramètrages des animations */
 @keyframes zoom {

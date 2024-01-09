@@ -36,6 +36,13 @@ body {
     flex-direction: column;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
 @media (max-width: 1150px) {
     .descriptif-image {
         margin: 0 32px 32px 32px;
