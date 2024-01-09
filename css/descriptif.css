@@ -1,0 +1,96 @@
+.descriptif-image {
+    float: left;
+    margin: 0 32px 32px 128px;
+    width: 25%;
+}
+
+.descriptif-text {
+    margin: 10px 128px 32px 32px;
+    text-align: justify;
+    line-height: 16px;
+}
+
+.call-to-action {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+h3, h4 {
+    margin: 0;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+.descriptif-cta {
+    margin-bottom: 32px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1150px) {
+    .descriptif-image {
+        margin: 0 32px 32px 32px;
+    }
+
+    .descriptif-text {
+        margin: 10px 32px 32px 32px;
+    }
+
+    .descriptif-cta {
+
+        margin-left: 32px;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .descriptif-projects {
+        width: 100%;
+    }
+
+    .descriptif-image {
+        float:none;
+        display: flex;
+        margin: auto;
+        margin-bottom: 16px;
+        width: 75%;
+    }
+
+    h3,
+    h4,
+    .descriptif-text {
+        width: 75%;
+        display: flex;
+        margin: auto;
+    }
+
+    .descriptif-text {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .descriptif-cta {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .descriptif-image,
+    .descriptif-text,
+    h3,
+    h4 {
+        width: 90%;
+    }
+}
